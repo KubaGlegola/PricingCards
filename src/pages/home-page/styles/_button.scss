@@ -1,0 +1,39 @@
+.button{
+    background-color: #14132B;
+    border-radius: 16px;
+    font-size: 14px;
+    line-height: 1em;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: -0.01em;
+    padding: 17px 0;
+    border: none;
+    cursor: pointer;
+
+    &:hover{
+        background-color: #393850;
+        transition: all ease-in 0.2s;
+    }
+
+    &:active{
+        background-color: #060613;
+        transition: all ease-in 0.1s;        
+    }
+
+    &--secondary{
+        background-color: #7863F9;
+
+        &:hover{
+            background-color: #9180FF;
+            transition: all ease-in 0.2s;
+        }
+    
+        &:active{
+            background-color: #6A53F4;
+            transition: all ease-in 0.1s;        
+        }
+    }
+    
+    
+
+}

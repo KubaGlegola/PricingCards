@@ -9,11 +9,17 @@ header{
     }
 
     & > p{
+        max-width: 75%;
+        margin: 0 auto;
         text-align: center;
         font-weight: 400;
         font-size: 16px;
         line-height: 1.4em;
         color: #989BB4;
         letter-spacing: -0.01em;
+    }
+
+    &__button{
+        margin-top: auto;
     }
 }
