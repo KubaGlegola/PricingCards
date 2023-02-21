@@ -4,22 +4,17 @@ header{
         font-size: 48px;
         line-height: 1em;
         font-weight: 600;
-        letter-spacing: -1px;
+        letter-spacing: -0.03em;
         margin-bottom: 16px;
     }
 
     & > p{
-        max-width: 75%;
-        margin: 0 auto;
+        margin: 0;
         text-align: center;
         font-weight: 400;
         font-size: 16px;
         line-height: 1.4em;
         color: #989BB4;
         letter-spacing: -0.01em;
-    }
-
-    &__button{
-        margin-top: auto;
     }
 }

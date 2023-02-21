@@ -10,8 +10,22 @@
 
 #home-page{
     max-width: 327px;
+    padding: 0 min(5%);
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     gap: 48px;    
+}
+
+@media (min-width: 530px){
+    #home-page{
+        max-width: 674px;
+        padding: 0 min(5%);
+    }
+}
+
+@media (min-width: 1024px){
+    #home-page{
+        max-width: 1004px;
+    }
 }
